@@ -9,4 +9,13 @@ floor(x)
 
 if(binary_search(arr.begin(), arr.end(), 15)
 
-max_element(v, v + 4); // max element in an array where v is the array
+max_element(v, v + 4);                                     // max element in an array where v is the array
+
+pair <int, char> PAIR1 ; 
+    PAIR1.first = 100; 
+    PAIR1.second = 'G' ;                                   // pair is just like a box conataining data of two different types
+              
+pair <string,double> PAIR2 ("GeeksForGeeks", 1.23);        // One more way;
+
+pair<int, int> p[n];                                       // Array of pairs;
+sort(p, p+n);                                              // Sorting of pairs;
