@@ -1,3 +1,22 @@
+string str;
+getline(cin,str);
+//cin.ignore();
+str="geeksforgeeks";
+std::string::iterator it;
+for(it=str.begin();it!=str.end();it++)
+{
+cout<<*it;
+}
+
+string str1;
+getline(cin,str1);
+std::string::reverse_iterator rit;      //reverese iteration
+for(it=str1.rbegin;it!=rend;it++)
+{
+cout<<*rit;
+}
+
+
 std::sort() in C++ STL
 sort(arr, arr+n); 
 
@@ -19,3 +38,12 @@ pair <string,double> PAIR2 ("GeeksForGeeks", 1.23);        // One more way;
 
 pair<int, int> p[n];                                       // Array of pairs;
 sort(p, p+n);                                              // Sorting of pairs;
+
+map<string, int> map_name;
+map_name[string_index]=int_value;       // just like an array;
+map<string, int> :: iterator it;        // this is used for iteration
+for(it=map_name.begin();it!=map_name.end();it++)
+{
+    cout<<map_name[it->first]<<endl;
+}
+
