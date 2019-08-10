@@ -47,3 +47,40 @@ for(it=map_name.begin();it!=map_name.end();it++)
     cout<<map_name[it->first]<<endl;
 }
 
+string str;
+getline(cin,str);
+str.push_back(element);
+str.pop_back(element);
+str.resize(length);
+str.begin();
+str.end();
+str1.copy(str2,length,start_index);     //Copies str1 into str2;
+
+// Comparing strings using compare() 
+    if ( str.compare(str1) == 0 )
+    
+  
+
+// initialization by raw string 
+    string str1("Your content");
+    string str2(str1); 
+    string str4(str1, 6, 6);
+  
+   // Inserting "Geeks" at 8th index position 
+    str.insert(8,"Geeks"); 
+  
+    str.clear();                    //EMPTIES THE STRING
+    int len = str6.length();
+    char ch = str6.at(2);
+    
+    Vectors--------------------------------------------------------------
+    
+    vector<int> g1;
+    for (int i = 1; i <= 5; i++) 
+        g1.push_back(i); 
+        
+        v.pop_back();               // Removes the last element;
+        v.clear();                  //Empties the Vector
+        
+        int n=g1.size();              //No of elements 
+
