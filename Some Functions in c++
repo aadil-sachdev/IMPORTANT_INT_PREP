@@ -55,7 +55,7 @@ str.resize(length);
 str.begin();
 str.end();
 str1.copy(str2,length,start_index);     //Copies str1 into str2;
-
+str1.append(str2);
 // Comparing strings using compare() 
     if ( str.compare(str1) == 0 )
     
