@@ -8,6 +8,8 @@ for(it=str.begin();it!=str.end();it++)
 cout<<*it;
 }
 
+reverse(str.begin(),str.end());
+
 string str1;
 getline(cin,str1);
 std::string::reverse_iterator rit;      //reverese iteration
