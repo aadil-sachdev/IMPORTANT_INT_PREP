@@ -84,9 +84,9 @@ str1.append(str2);
     
     Vectors--------------------------------------------------------------
     
-    vector<int> g1;
+    vector<int> v;
     for (int i = 1; i <= 5; i++) 
-        g1.push_back(i); 
+        v.push_back(i); 
         
         v.pop_back();               // Removes the last element;
         v.clear();                  //Empties the Vector
@@ -94,6 +94,7 @@ str1.append(str2);
         int n=g1.size();              //No of elements 
         
     v.erase(v.begin()+index); // index is any number where u want to remove the element
+    v.insert(v.begin()+index);
         
         
         
