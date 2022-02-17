@@ -56,6 +56,8 @@ for(it=map_name.begin();it!=map_name.end();it++)
     cout<<map_name[it->first]<<endl;
 }
 
+same for unordered_map, just use unordered_map //O(1) to O(n) but map always in O(logn)
+
 string str;
 getline(cin,str);
 str.push_back(element);
