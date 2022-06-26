@@ -170,6 +170,8 @@ for stock, price in zip(stocks, prices)}:
    
 FUNCTIONS ON STRING-----------------------------------------
 
+STRINGS ARE IMMUTABLE
+
 string_name.count('word')
 string_name.endswith('alphabet') #return true/false
 string.name.startswith('alphabet')	Returns true if the string starts with the specified value
