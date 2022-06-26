@@ -168,3 +168,43 @@ for stock, price in zip(stocks, prices)}:
    ......
    
    
+FUNCTIONS ON STRING-----------------------------------------
+
+string_name.count('word')
+string_name.endswith('alphabet') #return true/false
+string.name.startswith('alphabet')	Returns true if the string starts with the specified value
+string_name.find('word') #return position else -1
+string_name.isalpha()	Returns True if all characters in the string are in the alphabet
+string_name.isdecimal()	Returns True if all characters in the string are decimals
+string_name.isdigit()	Returns True if all characters in the string are digits
+string_name.isnumeric()	Returns True if all characters in the string are numeric
+string_name.islower()	Returns True if all characters in the string are lower case
+string_name.isupper()	Returns True if all characters in the string are upper case
+
+Convering a tuple into a single string:
+
+myTuple = ("John", "Peter", "Vicky")
+
+x = "-".join(myTuple)
+
+print(x)
+>>> John-Peter-Vicky"
+
+string_name.lower()	Converts a string into lower case
+string.name.upper()	Converts a string into upper case
+string_name.partition("word")	Returns a tuple where the string is parted into THREE parts
+string_name.replace('word2')	Returns a string where a specified value is replaced with a specified value
+string_name.rfind('word')	Searches the string for a specified value and returns the last position of where it was found
+string_name.rpartition('word')	Returns a tuple where the string is parted into three parts [this time last word is used to do partition]
+string_name.split()	Splits the string at the specified separator, and returns a list
+string_name.strip() #Only removes spaces from left and right
+
+Translate a string:
+
+mydict = {83:  80, ord('a'):ord('b')}
+txt = "Hello Sam!"
+print(txt.translate(mydict))
+
+>>> "Hello Pbm!"
+
+   
