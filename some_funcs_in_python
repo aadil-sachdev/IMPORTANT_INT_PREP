@@ -1,0 +1,101 @@
+abs(number) - Returns the absolute value of a number
+
+all(list)	- Returns True if all items in an iterable object are true
+
+any(list)	- Returns True if any item in an iterable object is true
+
+bin(number)	- Returns the binary version of a number
+
+bool() -	Returns the boolean value of the specified object
+
+chr(number) -	[ascii value to char] - chr(88)= 'X'
+
+divmod(a,b)- a/b returns tuple (quotient, remainder) 
+
+enumerate(list) - adds index to the element and make it a tupple and can be made as a list by list()
+
+float()	- Returns a floating point number
+
+format()	- "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+
+-------------------------------------------------------------------------------------------
+frozenset()	- immutable set
+
+A = frozenset([1, 2, 3, 4])
+B = frozenset([3, 4, 5, 6])
+
+C = A.copy()  # Output: frozenset({1, 2, 3, 4})
+print(C)
+
+# union
+print(A.union(B))  # Output: frozenset({1, 2, 3, 4, 5, 6})
+
+# intersection
+print(A.intersection(B))  # Output: frozenset({3, 4})
+
+# difference
+print(A.difference(B))  # Output: frozenset({1, 2})
+
+# symmetric_difference
+print(A.symmetric_difference(B))  # Output: frozenset({1, 2, 5, 6})
+
+-------------------------------------------------------------------------------------------
+
+getattr() -	Returns the value of the attribute of the object - getattr(obj,'attr_name') 
+
+hasattr()	Returns True if the specified object has the attribute - hasattr(obj,'attr_name') 
+
+hash()	Returns the hash value of a specified object
+
+hex()	Converts a number into a hexadecimal value
+
+input()	Allowing user input
+
+int()	Returns an integer number
+
+ord() - For getting the ascii value - ord('X')=88
+
+-------------------------------------------------------------------------------------------
+iter()	Returns an iterator object
+
+d=[1,2,3,4]
+d_i=iter(d)
+for i in range(1,len(d)):
+    print(next(d_i))
+
+-------------------------------------------------------------------------------------------
+   
+len()	Returns the length of an object - len(list_name)
+
+list()	Returns a list
+
+max(list)	Returns the largest item in an iterable
+
+min()	Returns the smallest item in an iterable
+
+next()	Returns the next item in an iterable
+
+oct()	Converts a number into an octal
+
+open()	Opens a file and returns a file object
+
+pow(a,b)	- a^b
+
+range()	Returns a sequence of numbers, starting from 0 and increments by 1 (by default)
+
+reversed()	Returns a reversed ITERATOR
+
+round()	Rounds a numbers
+
+set()	Returns a new set object
+setattr()	Sets an attribute (property/method) of an object
+slice()	Returns a slice object
+sorted()	Returns a sorted list
+staticmethod()	Converts a method into a static method
+str()	Returns a string object
+sum()	Sums the items of an iterator
+super()	Returns an object that represents the parent class
+tuple()	Returns a tuple
+type()	Returns the type of an object
+vars()	Returns the __dict__ property of an object
+zip()	Returns an iterator, from two or more iterators
