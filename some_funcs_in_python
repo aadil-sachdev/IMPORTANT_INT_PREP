@@ -87,15 +87,84 @@ reversed()	Returns a reversed ITERATOR
 
 round()	Rounds a numbers
 
+-------------------------------------------------------------------------------------------
 set()	Returns a new set object
-setattr()	Sets an attribute (property/method) of an object
+
+my_set = {1, 2, 3}
+
+A = frozenset([1, 2, 3, 4])
+
+>>>>'set' object does not support indexing
+
+my_set.add(2)
+my_set.update([2, 3, 4])
+my_set.discard(4)
+my_set.remove(6)
+print(my_set.pop()) #Pop a random element
+my_set.clear()
+
+A = frozenset([1, 2, 3, 4])
+B = frozenset([3, 4, 5, 6])
+
+C = A.copy()  # Output: frozenset({1, 2, 3, 4})
+print(C)
+
+# union
+print(A.union(B))  # Output: frozenset({1, 2, 3, 4, 5, 6})
+
+# intersection
+print(A.intersection(B))  # Output: frozenset({3, 4})
+
+# difference
+print(A.difference(B))  # Output: frozenset({1, 2})
+
+# symmetric_difference
+print(A.symmetric_difference(B))  # Output: frozenset({1, 2, 5, 6})
+
+-------------------------------------------------------------------------------------------
+
 slice()	Returns a slice object
+
+L = [1, 2, 3, 4, 5]
+s1 = slice(3)
+s2 = slice(1, 5, 2)
+
+L[s1]
+[1, 2, 3]
+L[s2]
+[2, 4]
+
+-------------------------------------------------------------------------------------------
+
 sorted()	Returns a sorted list
-staticmethod()	Converts a method into a static method
+
+y=sorted(x) #Sorts dictionary as well on the basis of keys
+y=sorted(x, reverse=True)
+y=sorted(L, key=len))   #to sort the list in order of lengths
+
+L = [15, 3, 11, 7]
+
+def func(x):
+    return x % 7
+    
+y=sorted(L, key=func))
+
+-------------------------------------------------------------------------------------------
+
 str()	Returns a string object
-sum()	Sums the items of an iterator
-super()	Returns an object that represents the parent class
+
+sum(list)	Sums the items of an iterator
+
 tuple()	Returns a tuple
+
 type()	Returns the type of an object
-vars()	Returns the __dict__ property of an object
+
 zip()	Returns an iterator, from two or more iterators
+
+stocks = ['reliance', 'infosys', 'tcs']
+prices = [2175, 1127, 2750]
+for stock, price in zip(stocks, prices)}:
+   ......
+   ......
+   
+   
