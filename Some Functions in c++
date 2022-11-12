@@ -46,7 +46,7 @@ pair <int, char> PAIR1 ;
 pair <string,double> PAIR2 ("GeeksForGeeks", 1.23);        // One more way;
 
 pair<int, int> p[n];                                       // Array of pairs;
-sort(p, p+n);                                              // Sorting of pairs;
+sort(p, p+n);                                              // Sorting of pairs on the basis of first element;
 
 map<string, int> map_name;
 map_name[string_index]=int_value;       // just like an array;
