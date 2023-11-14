@@ -22,3 +22,12 @@ join() : joins a sequence in such a way that output is string
   "$".join(a) => "a$b$c"
 
 -----------------------------------------------------------
+range (n) gives 0 till n-1
+eg : range(5) => 0,1,2,3,4
+
+a=[1,2,3,4]
+a="smarty"
+for i in range(len(a)):
+      print (a[i])
+
+-----------------------------------------------------------
