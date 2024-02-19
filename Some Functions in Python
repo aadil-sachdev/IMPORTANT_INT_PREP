@@ -31,3 +31,13 @@ for i in range(len(a)):
       print (a[i])
 
 -----------------------------------------------------------
+
+Square brackets in python:
+
+ls=['a', 'b', 'c', 'd']
+
+ls[0:len(ls)]=['a', 'b', 'c', 'd']
+ls[1:3]= ['b', 'c'] as we exclude the actual end_index element
+
+ls[:3]=['a', 'b', 'c'] (from beginning to end_index -1)
+ls[2:]= ['c', 'd'] (from index to end)
