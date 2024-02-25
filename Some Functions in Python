@@ -46,7 +46,7 @@ ls[2:]= ['c', 'd'] (from index to end)
 
 Stack implementation in Python:
 
-stack1 = deqeue()
+stack1 = deque()
 stack1.append('a')
 stack1.pop() //removes the list appended element just like stack
 
@@ -70,4 +70,17 @@ s2 will be => hi world hi
 
 -----------------------------------------------------------
 
+Upper() and Lower() :
 
+s1="abcdEF"
+s1.isupper() //False
+s1.islower() // False
+s1.upper() // "ABCDEF"
+s1.lower() // "abcdef"
+
+--------------------------------------------------------------
+
+Searching word in string:
+
+s1 = "hello world"
+"hello" in s1 // True
