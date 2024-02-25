@@ -76,7 +76,7 @@ s2 will be "abed" now
 
 ->For replacing the each word in a string, simply use:
 s1= "helloe world hello"
-s2=s1.replace("hello", "hi") //can't change s1 as s1 is immutable
+s2=s1.replace("hello", "hi") //can't change s1 as s1 is immutable so copying it to s2
 s2 will be => hi world hi
 
 -----------------------------------------------------------
@@ -130,4 +130,11 @@ b=a.copy() // remember to copy as otherwise it is a reference
 a.reverse() // change in place
 a=> [4,3,2,1]
 b=> [1,2,3,4]
+
+Note- Reversing a string:
+s1="abcde"
+
+"".join(reversed(s1))  // as reversed gives a reversed object
+or 
+s1[::-1] 
 
