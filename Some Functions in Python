@@ -50,6 +50,17 @@ stack1 = deque()
 stack1.append('a')
 stack1.pop() //removes the list appended element just like stack
 
+//list can also be used but list takes O(n) complexity to append the element whereas deque takes O(1) 
+
+l1=['a', 'c', 'd']
+stack1=deque(l1)
+
+Manipulation of list seems easier in deque:
+In the below way, we gave control from both ends for deletion and addition
+stack1.appendleft('f')
+stack1.popleft('d')
+
+stack1.index("c") // index function can be used with string and list also as it returns the first occurence
 -----------------------------------------------------------
 
 ->Convert String to a list of elements:
