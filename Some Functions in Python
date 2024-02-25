@@ -41,3 +41,27 @@ ls[1:3]= ['b', 'c'] as we exclude the actual end_index element
 
 ls[:3]=['a', 'b', 'c'] (from beginning to end_index -1)
 ls[2:]= ['c', 'd'] (from index to end)
+
+-----------------------------------------------------------
+
+Stack implementation in Python:
+
+stack1 = deqeue()
+stack1.append('a')
+stack1.pop() //removes the list appended element just like stack
+
+-----------------------------------------------------------
+
+Convert String to a list of elements:
+s1="abcd"
+l1=list(s1)
+
+perform the operation like replacing the element:
+
+l1[2]="e"
+s2 = "".join(l1)
+
+s2 will be "abed" now
+
+-----------------------------------------------------------
+
