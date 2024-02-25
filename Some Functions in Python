@@ -52,16 +52,22 @@ stack1.pop() //removes the list appended element just like stack
 
 -----------------------------------------------------------
 
-Convert String to a list of elements:
+->Convert String to a list of elements:
 s1="abcd"
 l1=list(s1)
 
-perform the operation like replacing the element:
+->perform the operation like replacing the element:
 
 l1[2]="e"
 s2 = "".join(l1)
 
 s2 will be "abed" now
 
+->For replacing the each word in a string, simply use:
+s1= "helloe world hello"
+s2=s1.replace("hello", "hi") //can't change s1 as s1 is immutable
+s2 will be => hi world hi
+
 -----------------------------------------------------------
+
 
