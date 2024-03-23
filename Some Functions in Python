@@ -48,7 +48,7 @@ Stack implementation in Python:
 
 stack1 = deque()
 stack1.append('a')
-stack1.pop() //removes the list appended element just like stack
+stack1.pop() //removes the last appended element just like stack
 
 //list can also be used but list takes O(n) complexity to append the element whereas deque takes O(1) 
 
@@ -112,7 +112,7 @@ eg:
 s=[1,2]
 a=[5,6]
 
-s.append(a) or s+a 
+s.extend(a) or s+a 
 ----------------------------------------------------------
 
 Split function in Python:
