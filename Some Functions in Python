@@ -138,3 +138,24 @@ s1="abcde"
 or 
 s1[::-1] 
 
+------------------------------------------------------------
+
+Sum of a list:
+sum(l1)
+
+Sum of a list for a particular index:
+
+sum(l1[:k])
+
+----------------------------------
+
+Max of two elements:
+
+max(a1,a2)
+
+also applied to list:
+
+max(l1)
+
+------------------------
+
