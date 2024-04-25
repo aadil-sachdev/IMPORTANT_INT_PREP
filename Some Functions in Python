@@ -159,3 +159,26 @@ max(l1)
 
 ------------------------
 
+Sets are optimized than list as it uses O(1) time complexity to fetch an element and the same should apply for deletion as well.
+They are unordered
+we can only add or delete the items in set but can't change an element
+They use hashmap and that's why it is O(1) as an average time complex to check in ele exists in set
+
+set(l1)
+
+set.add(ele)
+
+s3=s1.union(s2)
+s3=s1|s2
+
+s1=s1.intersection(s2)
+s1=s1&s2
+
+s1=s1-s2 //difference between set
+
+s1.clear()
+
+s1.pop() // removes the shortest element
+s1.discard(ele) // remove a particular element and if it doesn't exist - no error simply return the original error
+s1.remove(ele) // remove the element but if the ele doesn't exist, it gives an error
+
