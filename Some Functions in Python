@@ -179,16 +179,16 @@ s1=s1-s2 //difference between set
 s1.clear()
 
 s1.pop() // O(1)
-s1.discard(ele) // remove a particular element and if it doesn't exist - no error simply return the original error
-s1.remove(ele) // remove the element but if the ele doesn't exist, it gives an error
+s1.discard(ele) // remove a particular element and if it doesn't exist - no error simply return the original error O(1)
+s1.remove(ele) // remove the element but if the ele doesn't exist, it gives an error O(1)
 
 
 --------------------------
 Dict
 Remove element in dictionary:
 
-d1.pop(ele) // O(1)
-del d1[ele] // O(1)
+d1.pop(key) // O(1)
+del d1[key] // O(1)
 
 dictionaries are call by reference which means if you do:
 d2=d1
