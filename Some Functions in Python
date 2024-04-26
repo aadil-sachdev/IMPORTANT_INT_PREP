@@ -50,7 +50,7 @@ stack1 = deque()
 stack1.append('a')
 stack1.pop() //removes the last appended element just like stack
 
-//list can also be used but list takes O(n) complexity to append the element whereas deque takes O(1) 
+//list can also be used to pop and append but if you pop a particular index like l.pop(index) then it will O(N)
 
 l1=['a', 'c', 'd']
 stack1=deque(l1)
