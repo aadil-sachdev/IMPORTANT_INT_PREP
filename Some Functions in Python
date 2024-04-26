@@ -187,6 +187,10 @@ s1.add(ele) //O(1)
 s1.update(l1) // to add a list to set
 s1.union(s2) // to add a set to set
 
+sets are also call by reference:
+s2=s1 will make changes to both with the operation on either
+therefore, use:
+s2=s1.copy()
 
 --------------------------
 Dict
