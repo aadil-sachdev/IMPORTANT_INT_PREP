@@ -184,6 +184,7 @@ s1.remove(ele) // remove the element but if the ele doesn't exist, it gives an e
 
 
 --------------------------
+Dict
 Remove element in dictionary:
 
 d1.pop(ele) // O(1)
@@ -195,14 +196,17 @@ d1.pop(1) // it will delete from both as they are same things, you need to do
 
 d2=d1.copy()
 
+for i in d1:
+print(i) // will give the keys
+
 ------------------------------------
+List
 remove an element from list:
 
 l1.pop(index) //O(N)
 del l1[index] //O(N)
 l1.remove(ele) deletes the first occurence  //O(N)
 
---------------------------------------
 add an element to list:
 
 append, + , extend are there but can also use insert
