@@ -58,7 +58,7 @@ stack1=deque(l1)
 Manipulation of list seems easier in deque:
 In the below way, we gave control from both ends for deletion and addition
 stack1.appendleft('f')
-stack1.popleft('d')
+stack1.popleft()
 
 stack1.index("c") // index function can be used with string and list also as it returns the first occurence
 -----------------------------------------------------------
@@ -178,7 +178,38 @@ s1=s1-s2 //difference between set
 
 s1.clear()
 
-s1.pop() // removes the shortest element
+s1.pop() // O(1)
 s1.discard(ele) // remove a particular element and if it doesn't exist - no error simply return the original error
 s1.remove(ele) // remove the element but if the ele doesn't exist, it gives an error
+
+
+--------------------------
+Remove element in dictionary:
+
+d1.pop(ele) // O(1)
+del d1[ele] // O(1)
+
+dictionaries are call by reference which means if you do:
+d2=d1
+d1.pop(1) // it will delete from both as they are same things, you need to do 
+
+d2=d1.copy()
+
+------------------------------------
+remove an element from list:
+
+l1.pop(index) //O(N)
+del l1[index] //O(N)
+l1.remove(ele) deletes the first occurence  //O(N)
+
+--------------------------------------
+add an element to list:
+
+append, + , extend are there but can also use insert
+
+l1.insert(index, ele)
+
+Note: List is not a call by reference which means 
+l1=l2 is fine to to do operations
+--------------------------------------
 
