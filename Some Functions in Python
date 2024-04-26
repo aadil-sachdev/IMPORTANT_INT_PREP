@@ -204,6 +204,12 @@ d2=d1.copy()
 for i in d1:
 print(i) // will give the keys
 
+add elements to dict:
+
+dict1[index]=value
+dict1.update(dict2) // existing keys will be updated and new keys will be added
+
+
 ------------------------------------
 List
 remove an element from list:
@@ -220,5 +226,20 @@ l1.insert(index, ele)
 
 Note: List is not a call by reference which means 
 l1=l2 is fine to to do operations
+
+----------------------------------------
+Sort 
+
+sorting a list:
+l1.sort() // it is in place
+
+sorted(l1) // it is not in place and can be applied to immutables as well
+sorted(l1, reverse=True) // custom functions in sorted as well
+sorted(l1, key=len) // custom on the basis of len
+
+sorted(str) // if input is 'hello' output will be a list => ['e', 'h', 'l', 'l', 'o'] anc can be converted bac using "".join(l)
+
+sorted(dict1.items()) // will sort on the basis of keys
+sorted(dict1.items(), key= lambda x:x[1]) //sort on the basis of values as d1.items() gives a list of tuples where (key, value)
 --------------------------------------
 
