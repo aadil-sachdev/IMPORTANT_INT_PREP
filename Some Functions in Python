@@ -247,3 +247,25 @@ sorted(dict1.items()) // will sort on the basis of keys
 sorted(dict1.items(), key= lambda x:x[1]) //sort on the basis of values as d1.items() gives a list of tuples where (key, value)
 --------------------------------------
 
+LinkedList:
+
+class node:
+      def __init__(self, data):
+            self.data=data
+            self.next=None
+
+class LinkedList1:
+      def __init__(self):
+            self.head=None
+      def append(self, data):
+            check if head is empty
+            if not, reach the end by iterating through self.head.next and place the node there
+
+      def delete(self, val):
+            reach the place self.curr.data matches
+            make the prev.next point to curr.next
+
+IMP: Python has garbage collector due to which we don't need to delete the unallocated space manually unlike in C++
+     Python automatically deletes the objects which are not referenced or are not unaccessible helping us to avoid memory leak
+     Java also does the same, even C# as well
+     but C++ doesn't have a garbage collector, we have delete the memory manually.
