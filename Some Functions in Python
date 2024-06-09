@@ -269,3 +269,13 @@ IMP: Python has garbage collector due to which we don't need to delete the unall
      Python automatically deletes the objects which are not referenced or are not unaccessible helping us to avoid memory leak
      Java also does the same, even C# as well
      but C++ doesn't have a garbage collector, we have delete the memory manually.
+
+
+
+------------------------------
+Lambda Fnction:
+str1 = 'GeeksforGeeks'
+ 
+upper = lambda string: string.upper()
+print(upper(str1))
+
