@@ -279,3 +279,25 @@ str1 = 'GeeksforGeeks'
 upper = lambda string: string.upper()
 print(upper(str1))
 
+-------------------------------
+Max value of int:
+sys.maxsize
+
+Min value of int:
+-sys.maxsize
+
+--------------------------------
+defining an array of a constant value
+
+arr=[1]*n
+or
+arr=[0]*n
+
+------------------------------------
+defining a dict with default values of 0
+
+dict1 = defaultdict(int)
+dict1[3]+=1 #Works as by default the value was zero
+
+dict1 ={}
+dict1[3]+=1 #Error: as the key doesn't exist
