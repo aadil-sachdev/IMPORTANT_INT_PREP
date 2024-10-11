@@ -301,3 +301,8 @@ dict1[3]+=1 #Works as by default the value was zero
 
 dict1 ={}
 dict1[3]+=1 #Error: as the key doesn't exist
+
+---- or ---- //alternte way if forgets defaultdict:
+dict1={}
+for i in arr:
+      dict1[i] = dict1.get(i, 0) + 1 // using dict1.get(ele, defualt value) will give the default value as zero
