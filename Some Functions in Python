@@ -313,3 +313,9 @@ for i in arr:
 
 Note that Lists are NOT hashable and can't be used as keys in dict and can't be stored in sets
 : Convert them to tuple or string to store them
+
+------------------------------------------------
+
+Always use STACK where we see that the operation of the current elements affects the previous elements
+
+-----------------------------------------------
