@@ -306,3 +306,8 @@ dict1[3]+=1 #Error: as the key doesn't exist
 dict1={}
 for i in arr:
       dict1[i] = dict1.get(i, 0) + 1 // using dict1.get(ele, defualt value) will give the default value as zero
+
+-----------------------------------
+
+Note that Lists are NOT hashable and can't be used as keys in dict and can't be stored in sets
+: Convert them to tuple or string to store them
