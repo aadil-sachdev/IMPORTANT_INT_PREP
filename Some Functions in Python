@@ -103,8 +103,13 @@ s1 = "hello world"
 ASCII value of a string char
 
 s="f"
-ord(s)
+ord(s) #int(s) will give error
 
+-----------------------------------------------------
+Int to string:
+
+str(12345) 
+> '12345'
 ----------------------------------------------------------
 
 append means, adding one element
