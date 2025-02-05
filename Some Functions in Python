@@ -315,6 +315,11 @@ dict1={}
 for i in arr:
       dict1[i] = dict1.get(i, 0) + 1 // using dict1.get(ele, defualt value) will give the default value as zero
 
+
+defining a dict with default empty list as values
+d1=defaultdict(list)
+
+
 -----------------------------------
 
 Note that Lists are NOT hashable and can't be used as keys in dict and can't be stored in sets
