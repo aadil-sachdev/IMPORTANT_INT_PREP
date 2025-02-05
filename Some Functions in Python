@@ -235,8 +235,9 @@ append, + , extend are there but can also use insert
 
 l1.insert(index, ele)
 
-Note: List is not a call by reference which means 
-l1=l2 is fine to to do operations
+Note: List is  call by reference which means 
+l1=l2 is not fine to to do operations
+do l1=l2.copy()
 
 ----------------------------------------
 Sort 
