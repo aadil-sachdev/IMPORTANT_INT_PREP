@@ -220,6 +220,9 @@ add elements to dict:
 dict1[index]=value
 dict1.update(dict2) // existing keys will be updated and new keys will be added
 
+dict.items() => gives an iterator where list is there:
+so you can iterate over it but if need to access it then simply convert it to list
+
 
 ------------------------------------
 List
@@ -338,3 +341,18 @@ countDict=Counter(nums)
 
 countDict will be:
 {1:3, 2:2, 3:2, 4:2}
+
+--------------------------------------------
+
+import heapq
+
+nums= [2,3,4,1,2]
+heapq.heapify(nums) #This is inplace
+O(NLogN)
+
+heapq.heappop() => pops the smallest element from heap (in place)
+=> 1
+O(LogN)
+
+heapq.heappush(4) => puts into it maintaining heap property (in place)
+O(LogN)
