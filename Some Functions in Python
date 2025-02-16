@@ -350,9 +350,9 @@ nums= [2,3,4,1,2]
 heapq.heapify(nums) #This is inplace
 O(NLogN)
 
-heapq.heappop() => pops the smallest element from heap (in place)
+heapq.heappop(nums) => pops the smallest element from heap (in place)
 => 1
 O(LogN)
 
-heapq.heappush(4) => puts into it maintaining heap property (in place)
+heapq.heappush(nums, 4) => puts into it maintaining heap property (in place)
 O(LogN)
