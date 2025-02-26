@@ -356,3 +356,12 @@ O(LogN)
 
 heapq.heappush(nums, 4) => puts into it maintaining heap property (in place)
 O(LogN)
+
+------------------------------------------
+For backtracking:
+steps are :
+
+1. check
+2. add
+3. recurse 
+4. remove
