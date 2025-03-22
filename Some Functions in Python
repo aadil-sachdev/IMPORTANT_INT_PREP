@@ -110,6 +110,11 @@ Int to string:
 
 str(12345) 
 > '12345'
+
+Str to Int
+
+int("12345")
+> 12345
 ----------------------------------------------------------
 
 append means, adding one element
