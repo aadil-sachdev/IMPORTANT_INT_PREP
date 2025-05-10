@@ -370,3 +370,24 @@ steps are :
 2. add
 3. recurse 
 4. remove
+
+
+
+-----------------------------------------
+
+For generating unique id:
+use :
+import uuid
+a=uuid.uuid4().hex
+#it gives a 32 character hexadecimal string containig 0-9 and a-f chars
+you can shorten it as per need:
+a=uuid.uuid4(.hex[:4] // for 4 characters
+
+-------------------------------
+For generating random numbers
+import random
+
+num = random.randint(1000, 9999)  # 4-digit number
+print(num)  # Example: 7284
+
+
