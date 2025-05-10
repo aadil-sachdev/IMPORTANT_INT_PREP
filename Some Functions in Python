@@ -390,4 +390,25 @@ import random
 num = random.randint(1000, 9999)  # 4-digit number
 print(num)  # Example: 7284
 
+--------------------------------
+Abstraction in Python
+
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+    @abstractmethod
+    def sound(self):
+        pass
+
+class Dog(Animal):
+    def sound(self):
+        return "Bark"
+
+# This is valid
+dog = Dog()
+print(dog.sound())  # Output: Bark
+
+# This will raise an error because Animal is abstract and can't be instantiated
+# animal = Animal()  # TypeError: Can't instantiate abstract class Animal with abstract methods sound
+
 
