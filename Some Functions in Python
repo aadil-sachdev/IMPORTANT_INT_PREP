@@ -411,4 +411,26 @@ print(dog.sound())  # Output: Bark
 # This will raise an error because Animal is abstract and can't be instantiated
 # animal = Animal()  # TypeError: Can't instantiate abstract class Animal with abstract methods sound
 
+----------------------------------
+staticmethod and classmethod
+
+class MathUtils:
+    @staticmethod
+    def add(a, b):
+        return a + b
+
+print(MathUtils.add(3, 4))  # 7
+#Can't access class level or object level attributes
+
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    @classmethod
+    def from_string(cls, book_str):
+        title, author = book_str.split(" - ")
+        return cls(title, author)
+
+#Can't access object level but can access class level attributes
 
