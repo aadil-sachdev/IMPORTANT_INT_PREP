@@ -375,6 +375,11 @@ steps are :
 
 -----------------------------------------
 
+for checking if float and int are close:
+math.isclose(num1_float, num2_int)
+
+----------------------------------
+
 For generating unique id:
 use :
 import uuid
