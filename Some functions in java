@@ -1,0 +1,23 @@
+System.out.println(2+4)
+System.out.println("Hello World")
+System.out.println("Hello\nWorld") //prints Hello and World in seprate lines
+System.out.println("Using escape chars \\ \" \t ") some other escape chars for printing \ or "
+System.out.println("Hello" + 2*3 + 4 ) => Hello64 because if there is any string anywhere, everything becomes sring automatically - but gets evaluated first
+
+------------------------------------------------------------
+To get the random float value between 0 and 1
+
+Math.random()
+
+To get min of 2 values
+
+Math.min(23,45)
+
+-------------------------------------------------------------
+
+Divide 5/2 => 2 because both are int
+
+Divide 5.0/2 => 2.5 because either one is float
+
+
+
