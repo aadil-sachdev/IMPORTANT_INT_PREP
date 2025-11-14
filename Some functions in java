@@ -41,5 +41,14 @@ Divide 5.0/2 => 2.5 because either one is float
 
 Java is strongly typed i.e. storing float to int not allowed => int a = 4.5 //Not allowed but float a = 2 is allowed as a becomes 2.0
 
+IMP about float:
+any decimal number in java is by default a double and therefore we cant do float a = 4.5 because 4.5 is double hence:
+use-
+float a = 4.5f;
+
+and in case for double :
+
+double a = 4.5;
+
 
 
