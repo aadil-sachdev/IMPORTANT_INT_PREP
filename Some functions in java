@@ -39,5 +39,7 @@ Divide 5/2 => 2 because both are int
 
 Divide 5.0/2 => 2.5 because either one is float
 
+Java is strongly typed i.e. storing float to int not allowed => int a = 4.5 //Not allowed but float a = 2 is allowed as a becomes 2.0
+
 
 
