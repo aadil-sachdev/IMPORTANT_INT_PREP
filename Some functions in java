@@ -4,6 +4,15 @@ System.out.println("Hello\nWorld") //prints Hello and World in seprate lines
 System.out.println("Using escape chars \\ \" \t ") some other escape chars for printing \ or "
 System.out.println("Hello" + 2*3 + 4 ) => Hello64 because if there is any string anywhere, everything becomes sring automatically - but gets evaluated first
 
+Use printf for formatting
+
+jshell> System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k)
+5 + 5 + 7 = 17$108 ==> java.io.PrintStream@3b084709
+
+jshell> System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k).println()  // to avoid the printing of printstream
+5 + 5 + 7 = 17
+
+
 ------------------------------------------------------------
 To get the random float value between 0 and 1
 
@@ -12,6 +21,10 @@ Math.random()
 To get min of 2 values
 
 Math.min(23,45)
+
+To get max of 2 vals
+
+Math.math(23,4)
 
 -------------------------------------------------------------
 
