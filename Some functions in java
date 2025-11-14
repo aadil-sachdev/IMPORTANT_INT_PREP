@@ -6,10 +6,10 @@ System.out.println("Hello" + 2*3 + 4 ) => Hello64 because if there is any string
 
 Use printf for formatting
 
-jshell> System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k)
+System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k)
 5 + 5 + 7 = 17$108 ==> java.io.PrintStream@3b084709
 
-jshell> System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k).println()  // to avoid the printing of printstream
+System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k).println()  // to avoid the printing of printstream
 5 + 5 + 7 = 17
 
 
