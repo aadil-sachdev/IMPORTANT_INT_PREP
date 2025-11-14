@@ -12,7 +12,14 @@ System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k)
 System.out.printf("%d + %d + %d = %d", i,j,k,i+j+k).println()  // to avoid the printing of printstream
 5 + 5 + 7 = 17
 
+%d => int
+%f=> float
+%s=> string
 
+and you cant put 2.5 in %d because that is not supported and also not 2 in %f - follows strict format
+
+System.out.printf("Printing string %s and then print %d and %f", "Tesla", 2,4.5).println() //printing all types together
+Printing string Tesla and then print 2 and 4.500000
 ------------------------------------------------------------
 To get the random float value between 0 and 1
 
