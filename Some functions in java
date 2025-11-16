@@ -50,5 +50,18 @@ and in case for double :
 
 double a = 4.5;
 
+-------------------------------------------------------------------
+
+for loop:
+
+for(int i = 1; i <=10 ; i++)
+{
+statement 1;
+statement 2;
+}
+
+for (int i =1, int j=10; i<=10 ; i++, j--)
+{
+}
 
 
