@@ -60,8 +60,8 @@ statement 1;
 statement 2;
 }
 
-for (int i =1, int j=10; i<=10 ; i++, j--)
+for (int i =1, j=10; i<=10 & j>=5; i++,j--)
 {
+System.out.println(i + "and" + j);
 }
-
 
