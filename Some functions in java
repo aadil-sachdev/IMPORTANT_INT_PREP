@@ -89,3 +89,32 @@ class Planet{
 Planet earth = new Planet();
 earth.revolve() #calling this member function
 
+
+
+---------------------------------------------------------
+Some theory in Java
+
+Java code gets compiled to Bytecode by the compiler
+Bytecode gets run by JVM (Java Virtual Machine)
+We have a JVM for each OS - Windows JVM, Unix JVM, Linux JVM and Any other platform JVM
+
+JVM, JRE And JDK
+
+JRE = JVM + Libraries + Other Components
+JVM runs your program bytecode
+Libraries are built-in Java utilities that can be used within any program you create.
+System.out.println() was a method in java.lang, one such utility.
+Other Components include tools for debugging and code profiling (for memory management
+and performance)
+
+JDK = JRE + Compilers + Debuggers
+JDK refers to the Java Development Kit. It's an acronym for the bundle needed to compile
+(with the compiler) and run (with the JRE bundle) your Java program.
+
+Remember:
+JDK is needed to Compile and Run Java programs
+JRE is needed to Run Java Programs
+JVM is needed to Run Bytecode generated from Java programs
+
+-----------------------------------------------------------
+
