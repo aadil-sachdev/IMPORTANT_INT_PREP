@@ -116,6 +116,10 @@ JDK is needed to Compile and Run Java programs
 JRE is needed to Run Java Programs
 JVM is needed to Run Bytecode generated from Java programs - converts the bytecode to machine instructions and execute them
 
+The .java file is a java program and you need JDK to compile it and once that is done, you get a .class file.
+Now .class file is a compiled file i.e. bytecode and you need JRE to convert that platform independednt class file to be 
+converted to machine instructions and to be executed.
+
 -----------------------------------------------------------
 
 Basic Java code:
