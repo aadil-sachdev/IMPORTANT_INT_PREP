@@ -118,3 +118,20 @@ JVM is needed to Run Bytecode generated from Java programs
 
 -----------------------------------------------------------
 
+Basic Java code:
+
+class Planet{
+    void revolve(){
+        System.out.println("Revolve");
+    }
+
+    public static void main(String[] args){
+        Planet earth = new Planet();
+        earth.revolve();
+    }
+}
+
+
+runs in jshell like:
+javac Planet.java  / This will compile the code into bytecode and ideally create classes to be called using main function
+java Planet 
