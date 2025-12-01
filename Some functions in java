@@ -65,3 +65,11 @@ for (int i =1, j=10; i<=10 & j>=5; i++,j--)
 System.out.println(i + "and" + j);
 }
 
+
+--------------------------------------------------------------
+Methods in Java
+
+int fun1 (int arg1, int arg2){
+  int var3 = arg1 +arg2;
+  return var3;
+}
