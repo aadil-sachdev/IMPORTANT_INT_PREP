@@ -114,7 +114,7 @@ JDK refers to the Java Development Kit. It's an acronym for the bundle needed to
 Remember:
 JDK is needed to Compile and Run Java programs
 JRE is needed to Run Java Programs
-JVM is needed to Run Bytecode generated from Java programs
+JVM is needed to Run Bytecode generated from Java programs - converts the bytecode to machine instructions and execute them
 
 -----------------------------------------------------------
 
