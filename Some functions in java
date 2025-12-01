@@ -73,3 +73,19 @@ int fun1 (int arg1, int arg2){
   int var3 = arg1 +arg2;
   return var3;
 }
+
+
+-----------------------------------------------------------
+Classes in Java
+
+class Planet{
+  void revolve(){
+    System.out.println("Revolving this planet")
+  }
+}
+
+#Create the object of class defined above
+
+Planet earth = new Planet();
+earth.revolve() #calling this member function
+
