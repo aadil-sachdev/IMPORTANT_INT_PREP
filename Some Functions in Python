@@ -261,6 +261,25 @@ sorted(str) // if input is 'hello' output will be a list => ['e', 'h', 'l', 'l',
 
 sorted(dict1.items()) // will sort on the basis of keys
 sorted(dict1.items(), key= lambda x:x[1]) //sort on the basis of values as d1.items() gives a list of tuples where (key, value)
+
+eg:
+class Solution:
+    def minimumPushes(self, word: str) -> int:
+        occurOfAlpha = Counter(word)
+        sortedAlpha = sorted(occurOfAlpha.items(), key = lambda x : x[1], reverse = True)
+        pushes = 0
+        multiplier=1
+        counter=0
+        for i,j in sortedAlpha:
+            pushes += (j*multiplier)
+            counter+=1
+            if counter == 8:
+                multiplier +=1
+                counter = 0
+
+        return pushes
+
+
 --------------------------------------
 
 LinkedList:
